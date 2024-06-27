@@ -1,6 +1,6 @@
 # WORKO AI
 
-    Basic API with all the common http methods to support CRUD operations on Users data.
+Basic API with all the common http methods to support CRUD operations on Users data.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@
 
 ## Introduction
 
-    We can get, add, update and delete users data using http request methods in the database
+We can get, add, update and delete users data using http request methods in the database
 
 ## Features
 
@@ -60,6 +60,9 @@ Ensure you have the following installed:
    npm install
    ```
 3. Set up environment variables:
+   Create a .env file in the root directory and add the following:
+
    ```
-   npm install
+   MONGODB_URL=your_mongodb_connection_string
+    JWT_SECRET=your_jwt_secret_key
    ```
