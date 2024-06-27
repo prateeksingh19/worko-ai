@@ -10,12 +10,8 @@ Basic API with all the common http methods to support CRUD operations on Users d
 - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Database Setup](#database-setup)
-  - [Configuration](#configuration)
 - [Usage](#usage)
 - [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
