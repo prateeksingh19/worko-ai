@@ -7,9 +7,6 @@ Basic API with all the common http methods to support CRUD operations on Users d
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies](#technologies)
-- [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
 - [Usage](#usage)
 - [Testing](#testing)
 
@@ -35,30 +32,27 @@ We can get, add, update and delete users data using http request methods in the 
 - Jest
 - JsonWebTokens
 
-## Setup
+## Usage
 
-### Prerequisites
+Open a web browser or use tools like Postman to interact with the API endpoints.
 
-Ensure you have the following installed:
+```
+https://worko-ai.vercel.app
+```
 
-- Node.js (version 20.x)
-- npm
+Endpoints:
 
-### Installation
+1. GET /worko/user: Retrieve all users
+2. GET /worko/user/id: Retrieve the users for id
+3. POST /worko/user: Create a new user
+4. PUT /worko/user/:id: Update a user by ID
+5. PUT /worko/user/:id: Update a user by ID
+6. DELETE /worko/user/:id: Soft Delete a user by ID
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/your-project.git
-   cd your-project
-   ```
-2. Install dependencies:
-   ```
-   npm install
-   ```
-3. Set up environment variables:
-   Create a .env file in the root directory and add the following:
+## Testing
 
-   ```
-   MONGODB_URL=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret_key
-   ```
+Run this command to run all tests
+
+```
+npm test
+```
